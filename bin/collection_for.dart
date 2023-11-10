@@ -1,5 +1,7 @@
-import 'package:collection_for/collection_for.dart' as collection_for;
+void main() {
+  List<String> tynchtyk = ["Tynchtyk", "Kyrgyzstan", "Flutter", "SOLID", "OOP"];
 
-void main(List<String> arguments) {
-  print('Hello world: ${collection_for.calculate()}!');
+  for (int i = 0; i < tynchtyk.length; i++) {
+    print(tynchtyk[i]);
+  }
 }
